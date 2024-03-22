@@ -24,7 +24,7 @@ h1{
     font-size:5em;}
 #Elements{
     position: fixed;
-        top: 40%;
+        top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align:center;
@@ -80,15 +80,15 @@ h1{
 #AccountButton {
     position: absolute; /* umieszcza przycisk na stałe, niezależnie od przewijania strony */
     top: 20px; /* odległość od góry */
-    left: 20px; /* odległość od prawej krawędzi */
+    right: 10%; /* odległość od prawej krawędzi */
     z-index: 999; /* z-index określa, na jakiej warstwie znajduje się element */
 }
 #MyPlantsButton{
     position: absolute; /* umieszcza przycisk na stałe, niezależnie od przewijania strony */
     top: 20px; /* odległość od góry */
-    left: 47%; /* odległość od prawej krawędzi */
+    right: 20%; /* odległość od prawej krawędzi */
     z-index: 999; /* z-index określa, na jakiej warstwie znajduje się element */
 }
-    }
+
 #Watering{
-    font-size:4em;}
+    font-size:3.5em;}

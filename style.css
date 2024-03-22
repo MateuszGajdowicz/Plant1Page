@@ -75,13 +75,20 @@ h1{
 }
 #SettingsButton{
     position: absolute;
-    top: 10px; /* Dostosuj wartość, aby ustawić odległość od górnej krawędzi */
+    top: 20px; /* Dostosuj wartość, aby ustawić odległość od górnej krawędzi */
     right: 10px;}
 #AccountButton {
-    position: fixed; /* umieszcza przycisk na stałe, niezależnie od przewijania strony */
+    position: absolute; /* umieszcza przycisk na stałe, niezależnie od przewijania strony */
     top: 20px; /* odległość od góry */
     left: 20px; /* odległość od prawej krawędzi */
     z-index: 999; /* z-index określa, na jakiej warstwie znajduje się element */
 }
+#MyPlantsButton{
+    position: absolute; /* umieszcza przycisk na stałe, niezależnie od przewijania strony */
+    top: 20px; /* odległość od góry */
+    left: 47%; /* odległość od prawej krawędzi */
+    z-index: 999; /* z-index określa, na jakiej warstwie znajduje się element */
+}
+    }
 #Watering{
-    font-size:3em;}
+    font-size:4em;}

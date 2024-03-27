@@ -19,4 +19,4 @@ window.onload = function(){
     if(lastWateringDate){
     document.getElementById('p1').textContent =  lastWateringDate;}}
     var NewPlantName1 = localStorage.getItem("NewPlantName1");
-    document.getElementById("h1").textContent = NewPlantName1;}
+    document.getElementById("h1").textContent = NewPlantName1;

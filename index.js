@@ -15,6 +15,6 @@ function waterPlant() {
         localStorage.setItem("lastWateringDate2", formattedDate2);
         }
 window.onload = function(){
-    var lastWateringDate = localStorage.getItem("lastWateringDate2");
-    if(lastWateringDate)
+    var lastWateringDate2 = localStorage.getItem("lastWateringDate2");
+    if(lastWateringDate2)
     document.getElementById('p1').textContent =  lastWateringDate2;}

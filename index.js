@@ -12,9 +12,9 @@ function waterPlant() {
         WateringDate.textContent = formattedDate2;
 
         window.location.href = 'https://mateuszgajdowicz.github.io/CongratulationsPage/';
-        localStorage.setItem("lastWateringDate", formattedDate2);
+        localStorage.setItem("lastWateringDate2", formattedDate2);
         }
 window.onload = function(){
-    var lastWateringDate = localStorage.getItem("lastWateringDate");
+    var lastWateringDate = localStorage.getItem("lastWateringDate2");
     if(lastWateringDate)
-    document.getElementById('p1').textContent =  lastWateringDate;}
+    document.getElementById('p1').textContent =  lastWateringDate2;}
